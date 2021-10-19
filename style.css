@@ -5,6 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Qahiri", sans-serif;
 }
 img {
   height: 30rem;
@@ -16,6 +17,9 @@ img {
   align-items: center;
   justify-content: center;
   border: 1rem solid black;
+  box-shadow: 10px 5px 5px black;
+  padding: 1rem;
+  margin: 1rem;
 }
 .parent {
   display: flex;
@@ -31,6 +35,9 @@ img {
   align-items: center;
   justify-content: center;
   border: 1rem solid black;
+  box-shadow: 10px 5px 5px black;
+  padding: 1rem;
+  margin: 1rem;
 }
 .child-3 {
   display: flex;
@@ -38,4 +45,7 @@ img {
   align-items: center;
   justify-content: center;
   border: 1rem solid black;
+  box-shadow: 10px 5px 5px black;
+  padding: 1rem;
+  margin: 1rem;
 }
