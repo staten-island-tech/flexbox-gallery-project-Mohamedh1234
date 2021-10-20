@@ -5,47 +5,40 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Qahiri", sans-serif;
+  font-family: "Rampart One", cursive;
 }
 img {
-  height: 30rem;
-  width: 30rem;
+  height: 40rem;
+  width: 40rem;
 }
-.child-1 {
+.child {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border: 1rem solid black;
-  box-shadow: 10px 5px 5px black;
-  padding: 1rem;
+  box-shadow: 2rem 1rem 1rem grey;
+  width: 30%;
+  height: 60rem;
   margin: 1rem;
 }
 .parent {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  width: 85vw;
-  margin: 0 auto;
 }
-.child-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1rem solid black;
-  box-shadow: 10px 5px 5px black;
-  padding: 1rem;
-  margin: 1rem;
+.header-title {
+  font-size: 10rem;
+  text-align: center;
 }
-.child-3 {
+.img {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1rem solid black;
-  box-shadow: 10px 5px 5px black;
-  padding: 1rem;
-  margin: 1rem;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.sponge:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+  border: solid purple;
 }
