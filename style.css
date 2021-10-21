@@ -21,6 +21,7 @@ img {
   width: 30%;
   height: 60rem;
   margin: 1rem;
+  border-radius: 6rem;
 }
 .parent {
   display: flex;
@@ -40,5 +41,20 @@ img {
 .sponge:hover {
   transform: scale(1.1);
   transition: all 0.3s ease-in;
-  border: solid purple;
+}
+.larry:hover {
+  background-color: blue;
+  transition: all ease-in 1s;
+  border: 2rem dotted yellow;
+}
+.pat:hover {
+  transform: skew(10deg);
+  border: 2rem solid black;
+}
+.plan:hover {
+  transform: rotate(90deg);
+  transition: all ease-in 2s;
+}
+.barn:hover {
+  transform: translate(10rem, 5%);
 }
